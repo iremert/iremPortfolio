@@ -4,7 +4,7 @@ namespace iremPortfolio.Controllers
 {
     public class PortfolioController : Controller
     {
-        public IActionResult Index()
+        public IActionResult index()
         {
             return View();
         }
